@@ -1,0 +1,35 @@
+//
+//  FF_FriendsCircle-PrefixHeader.pch
+//  FF_WXFriendsCircle
+//
+//  Created by mac on 2019/6/10.
+//  Copyright © 2019 healifeGroup. All rights reserved.
+//
+
+#ifndef FF_FriendsCircle_PrefixHeader_pch
+#define FF_FriendsCircle_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+#import <Masonry.h>
+#import <UIImageView+WebCache.h>
+#import <MJRefresh/MJRefresh.h>
+#import <MLLabel/MLLabel.h>
+#import <MLLabel/MLLinkLabel.h>
+#import <YBImageBrowser.h>
+
+
+
+#define kScale_width    MIN([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)
+#define UI_S_CALE  kScale_width / 750.f
+#define kSCALE(value)  (value) * UI_S_CALE
+
+///字体
+#define kFont(fontSize)     [UIFont systemFontOfSize:fontSize]
+#define kFontBlod(fontSize) [UIFont boldSystemFontOfSize:fontSize]
+
+
+#endif /* FF_FriendsCircle_PrefixHeader_pch */

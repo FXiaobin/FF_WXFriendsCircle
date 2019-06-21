@@ -1,0 +1,41 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.16)
+  - MLLabel (1.10.5)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - YBImageBrowser (2.1.5):
+    - SDWebImage
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh
+  - MLLabel
+  - SDWebImage
+  - YBImageBrowser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MJRefresh
+    - MLLabel
+    - SDWebImage
+    - YBImageBrowser
+    - YYImage
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  YBImageBrowser: 549bc0f8bc7df723381e1516db240d827ded3673
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+
+PODFILE CHECKSUM: fd32d6d413c145db690a79dddbdbfb8b9cf0545b
+
+COCOAPODS: 1.5.2

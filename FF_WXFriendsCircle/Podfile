@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '8.0'
+
+target 'FF_WXFriendsCircle' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for FF_WXFriendsCircle
+  
+  
+  pod 'MJRefresh'
+  pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'MLLabel'
+  pod 'YBImageBrowser'
+  
+
+  target 'FF_WXFriendsCircleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FF_WXFriendsCircleUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

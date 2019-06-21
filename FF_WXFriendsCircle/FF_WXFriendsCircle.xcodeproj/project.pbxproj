@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403D4CC22B335910092BA25 /* WXFriendsCirlceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4CB22B335910092BA25 /* WXFriendsCirlceViewController.m */; };
+		0403D4CF22B335ED0092BA25 /* WXFriendsCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4CE22B335ED0092BA25 /* WXFriendsCircleCell.m */; };
+		0403D4D222B336810092BA25 /* WXFriendsCircleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4D122B336810092BA25 /* WXFriendsCircleModel.m */; };
+		0403D4DA22B340F20092BA25 /* WXPicsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4D922B340F20092BA25 /* WXPicsContainerView.m */; };
+		0403D4DD22B341020092BA25 /* WXCommentsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0403D4DC22B341020092BA25 /* WXCommentsContainerView.m */; };
+		041825EB22ADE583005E8F04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041825EA22ADE583005E8F04 /* AppDelegate.m */; };
+		041825EE22ADE583005E8F04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041825ED22ADE583005E8F04 /* ViewController.m */; };
+		041825F122ADE583005E8F04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041825EF22ADE583005E8F04 /* Main.storyboard */; };
+		041825F322ADE584005E8F04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041825F222ADE584005E8F04 /* Assets.xcassets */; };
+		041825F622ADE584005E8F04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041825F422ADE584005E8F04 /* LaunchScreen.storyboard */; };
+		041825F922ADE584005E8F04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041825F822ADE584005E8F04 /* main.m */; };
+		0418262222ADE77E005E8F04 /* FriendsCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418262122ADE77E005E8F04 /* FriendsCircleViewController.m */; };
+		0418262522ADEA43005E8F04 /* FriendsCirlceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418262422ADEA43005E8F04 /* FriendsCirlceModel.m */; };
+		0418262822ADF1F4005E8F04 /* FriendsCircleCell_01.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418262722ADF1F4005E8F04 /* FriendsCircleCell_01.m */; };
+		0418262B22AE105D005E8F04 /* NSArray+Sudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418262A22AE105D005E8F04 /* NSArray+Sudoku.m */; };
+		0418262E22AE3CDE005E8F04 /* FriendsCircleCell_02.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418262D22AE3CDE005E8F04 /* FriendsCircleCell_02.m */; };
+		0418263122AE46FB005E8F04 /* PicsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418263022AE46FB005E8F04 /* PicsContainerView.m */; };
+		0418263422AE482E005E8F04 /* CommentsContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418263322AE482E005E8F04 /* CommentsContainerView.m */; };
+		0418263722AE5BAE005E8F04 /* FeedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418263622AE5BAD005E8F04 /* FeedListViewController.m */; };
+		0B0F0B35666367509CE0B36A /* libPods-FF_WXFriendsCircleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 382CE5A441F7EA8AB8013D86 /* libPods-FF_WXFriendsCircleUITests.a */; };
+		1E3A1E95E3AC93F90D50DF82 /* libPods-FF_WXFriendsCircle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 232E7F9444CA66D502DEE9A4 /* libPods-FF_WXFriendsCircle.a */; };
+		F766D3043A9CD1DBB1FD2EBF /* libPods-FF_WXFriendsCircleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81104B4FEF371F53A66EB705 /* libPods-FF_WXFriendsCircleTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041825FF22ADE584005E8F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041825DE22ADE583005E8F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041825E522ADE583005E8F04;
+			remoteInfo = FF_WXFriendsCircle;
+		};
+		0418260A22ADE584005E8F04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041825DE22ADE583005E8F04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041825E522ADE583005E8F04;
+			remoteInfo = FF_WXFriendsCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0403D4CA22B335910092BA25 /* WXFriendsCirlceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXFriendsCirlceViewController.h; sourceTree = "<group>"; };
+		0403D4CB22B335910092BA25 /* WXFriendsCirlceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXFriendsCirlceViewController.m; sourceTree = "<group>"; };
+		0403D4CD22B335ED0092BA25 /* WXFriendsCircleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXFriendsCircleCell.h; sourceTree = "<group>"; };
+		0403D4CE22B335ED0092BA25 /* WXFriendsCircleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXFriendsCircleCell.m; sourceTree = "<group>"; };
+		0403D4D022B336810092BA25 /* WXFriendsCircleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXFriendsCircleModel.h; sourceTree = "<group>"; };
+		0403D4D122B336810092BA25 /* WXFriendsCircleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXFriendsCircleModel.m; sourceTree = "<group>"; };
+		0403D4D822B340F20092BA25 /* WXPicsContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPicsContainerView.h; sourceTree = "<group>"; };
+		0403D4D922B340F20092BA25 /* WXPicsContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPicsContainerView.m; sourceTree = "<group>"; };
+		0403D4DB22B341020092BA25 /* WXCommentsContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXCommentsContainerView.h; sourceTree = "<group>"; };
+		0403D4DC22B341020092BA25 /* WXCommentsContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXCommentsContainerView.m; sourceTree = "<group>"; };
+		041825E622ADE583005E8F04 /* FF_WXFriendsCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FF_WXFriendsCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041825E922ADE583005E8F04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		041825EA22ADE583005E8F04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		041825EC22ADE583005E8F04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		041825ED22ADE583005E8F04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		041825F022ADE583005E8F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041825F222ADE584005E8F04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041825F522ADE584005E8F04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041825F722ADE584005E8F04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041825F822ADE584005E8F04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041825FE22ADE584005E8F04 /* FF_WXFriendsCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_WXFriendsCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0418260922ADE584005E8F04 /* FF_WXFriendsCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FF_WXFriendsCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0418261F22ADE6EF005E8F04 /* FF_FriendsCircle-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FF_FriendsCircle-PrefixHeader.pch"; sourceTree = "<group>"; };
+		0418262022ADE77E005E8F04 /* FriendsCircleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCircleViewController.h; sourceTree = "<group>"; };
+		0418262122ADE77E005E8F04 /* FriendsCircleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCircleViewController.m; sourceTree = "<group>"; };
+		0418262322ADEA43005E8F04 /* FriendsCirlceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCirlceModel.h; sourceTree = "<group>"; };
+		0418262422ADEA43005E8F04 /* FriendsCirlceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCirlceModel.m; sourceTree = "<group>"; };
+		0418262622ADF1F4005E8F04 /* FriendsCircleCell_01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCircleCell_01.h; sourceTree = "<group>"; };
+		0418262722ADF1F4005E8F04 /* FriendsCircleCell_01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCircleCell_01.m; sourceTree = "<group>"; };
+		0418262922AE105D005E8F04 /* NSArray+Sudoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Sudoku.h"; sourceTree = "<group>"; };
+		0418262A22AE105D005E8F04 /* NSArray+Sudoku.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Sudoku.m"; sourceTree = "<group>"; };
+		0418262C22AE3CDE005E8F04 /* FriendsCircleCell_02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FriendsCircleCell_02.h; sourceTree = "<group>"; };
+		0418262D22AE3CDE005E8F04 /* FriendsCircleCell_02.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FriendsCircleCell_02.m; sourceTree = "<group>"; };
+		0418262F22AE46FB005E8F04 /* PicsContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PicsContainerView.h; sourceTree = "<group>"; };
+		0418263022AE46FB005E8F04 /* PicsContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicsContainerView.m; sourceTree = "<group>"; };
+		0418263222AE482E005E8F04 /* CommentsContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentsContainerView.h; sourceTree = "<group>"; };
+		0418263322AE482E005E8F04 /* CommentsContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentsContainerView.m; sourceTree = "<group>"; };
+		0418263522AE5BAD005E8F04 /* FeedListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedListViewController.h; sourceTree = "<group>"; };
+		0418263622AE5BAD005E8F04 /* FeedListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedListViewController.m; sourceTree = "<group>"; };
+		232E7F9444CA66D502DEE9A4 /* libPods-FF_WXFriendsCircle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_WXFriendsCircle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B34CED2CD25FEF97E49C01 /* Pods-FF_WXFriendsCircleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircleTests/Pods-FF_WXFriendsCircleTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D54240B0F14A834693ECB85 /* Pods-FF_WXFriendsCircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircle/Pods-FF_WXFriendsCircle.debug.xcconfig"; sourceTree = "<group>"; };
+		382CE5A441F7EA8AB8013D86 /* libPods-FF_WXFriendsCircleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_WXFriendsCircleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B0C67EB6A3D5B9FFBA987F /* Pods-FF_WXFriendsCircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircle.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircle/Pods-FF_WXFriendsCircle.release.xcconfig"; sourceTree = "<group>"; };
+		7DABC4FFD367D1D958E303D6 /* Pods-FF_WXFriendsCircleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircleUITests/Pods-FF_WXFriendsCircleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81104B4FEF371F53A66EB705 /* libPods-FF_WXFriendsCircleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FF_WXFriendsCircleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5727A41F08A9BA3582A71EC /* Pods-FF_WXFriendsCircleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircleUITests/Pods-FF_WXFriendsCircleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E363421B1D17228E5D1D914C /* Pods-FF_WXFriendsCircleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FF_WXFriendsCircleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FF_WXFriendsCircleTests/Pods-FF_WXFriendsCircleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041825E322ADE583005E8F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3A1E95E3AC93F90D50DF82 /* libPods-FF_WXFriendsCircle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041825FB22ADE584005E8F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F766D3043A9CD1DBB1FD2EBF /* libPods-FF_WXFriendsCircleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0418260622ADE584005E8F04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0F0B35666367509CE0B36A /* libPods-FF_WXFriendsCircleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0403D4D322B340A40092BA25 /* WXFriendsCircle */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4D422B340A40092BA25 /* Cells */,
+				0403D4D522B340A40092BA25 /* Models */,
+				0403D4D622B340A40092BA25 /* ViewControllers */,
+				0403D4D722B340A40092BA25 /* Views */,
+			);
+			path = WXFriendsCircle;
+			sourceTree = "<group>";
+		};
+		0403D4D422B340A40092BA25 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4CD22B335ED0092BA25 /* WXFriendsCircleCell.h */,
+				0403D4CE22B335ED0092BA25 /* WXFriendsCircleCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0403D4D522B340A40092BA25 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4D022B336810092BA25 /* WXFriendsCircleModel.h */,
+				0403D4D122B336810092BA25 /* WXFriendsCircleModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0403D4D622B340A40092BA25 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4CA22B335910092BA25 /* WXFriendsCirlceViewController.h */,
+				0403D4CB22B335910092BA25 /* WXFriendsCirlceViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0403D4D722B340A40092BA25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4D822B340F20092BA25 /* WXPicsContainerView.h */,
+				0403D4D922B340F20092BA25 /* WXPicsContainerView.m */,
+				0403D4DB22B341020092BA25 /* WXCommentsContainerView.h */,
+				0403D4DC22B341020092BA25 /* WXCommentsContainerView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		041825DD22ADE583005E8F04 = {
+			isa = PBXGroup;
+			children = (
+				041825E822ADE583005E8F04 /* FF_WXFriendsCircle */,
+				041825E722ADE583005E8F04 /* Products */,
+				B971BC23F4600FF257A0B969 /* Pods */,
+				BEDA957155DDE1C6D50790AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041825E722ADE583005E8F04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041825E622ADE583005E8F04 /* FF_WXFriendsCircle.app */,
+				041825FE22ADE584005E8F04 /* FF_WXFriendsCircleTests.xctest */,
+				0418260922ADE584005E8F04 /* FF_WXFriendsCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041825E822ADE583005E8F04 /* FF_WXFriendsCircle */ = {
+			isa = PBXGroup;
+			children = (
+				0403D4D322B340A40092BA25 /* WXFriendsCircle */,
+				0418261B22ADE5A6005E8F04 /* FriendsCircle */,
+				041825E922ADE583005E8F04 /* AppDelegate.h */,
+				041825EA22ADE583005E8F04 /* AppDelegate.m */,
+				041825EC22ADE583005E8F04 /* ViewController.h */,
+				041825ED22ADE583005E8F04 /* ViewController.m */,
+				041825EF22ADE583005E8F04 /* Main.storyboard */,
+				041825F222ADE584005E8F04 /* Assets.xcassets */,
+				041825F422ADE584005E8F04 /* LaunchScreen.storyboard */,
+				041825F722ADE584005E8F04 /* Info.plist */,
+				0418261F22ADE6EF005E8F04 /* FF_FriendsCircle-PrefixHeader.pch */,
+				041825F822ADE584005E8F04 /* main.m */,
+			);
+			path = FF_WXFriendsCircle;
+			sourceTree = "<group>";
+		};
+		0418261B22ADE5A6005E8F04 /* FriendsCircle */ = {
+			isa = PBXGroup;
+			children = (
+				0418261C22ADE5A6005E8F04 /* Cells */,
+				0418261D22ADE5A6005E8F04 /* Models */,
+				0418261E22ADE5A6005E8F04 /* ViewControllers */,
+			);
+			path = FriendsCircle;
+			sourceTree = "<group>";
+		};
+		0418261C22ADE5A6005E8F04 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0418262622ADF1F4005E8F04 /* FriendsCircleCell_01.h */,
+				0418262722ADF1F4005E8F04 /* FriendsCircleCell_01.m */,
+				0418262C22AE3CDE005E8F04 /* FriendsCircleCell_02.h */,
+				0418262D22AE3CDE005E8F04 /* FriendsCircleCell_02.m */,
+				0418262922AE105D005E8F04 /* NSArray+Sudoku.h */,
+				0418262A22AE105D005E8F04 /* NSArray+Sudoku.m */,
+				0418262F22AE46FB005E8F04 /* PicsContainerView.h */,
+				0418263022AE46FB005E8F04 /* PicsContainerView.m */,
+				0418263222AE482E005E8F04 /* CommentsContainerView.h */,
+				0418263322AE482E005E8F04 /* CommentsContainerView.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0418261D22ADE5A6005E8F04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0418262322ADEA43005E8F04 /* FriendsCirlceModel.h */,
+				0418262422ADEA43005E8F04 /* FriendsCirlceModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0418261E22ADE5A6005E8F04 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0418262022ADE77E005E8F04 /* FriendsCircleViewController.h */,
+				0418262122ADE77E005E8F04 /* FriendsCircleViewController.m */,
+				0418263522AE5BAD005E8F04 /* FeedListViewController.h */,
+				0418263622AE5BAD005E8F04 /* FeedListViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B971BC23F4600FF257A0B969 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D54240B0F14A834693ECB85 /* Pods-FF_WXFriendsCircle.debug.xcconfig */,
+				77B0C67EB6A3D5B9FFBA987F /* Pods-FF_WXFriendsCircle.release.xcconfig */,
+				E363421B1D17228E5D1D914C /* Pods-FF_WXFriendsCircleTests.debug.xcconfig */,
+				24B34CED2CD25FEF97E49C01 /* Pods-FF_WXFriendsCircleTests.release.xcconfig */,
+				D5727A41F08A9BA3582A71EC /* Pods-FF_WXFriendsCircleUITests.debug.xcconfig */,
+				7DABC4FFD367D1D958E303D6 /* Pods-FF_WXFriendsCircleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEDA957155DDE1C6D50790AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				232E7F9444CA66D502DEE9A4 /* libPods-FF_WXFriendsCircle.a */,
+				81104B4FEF371F53A66EB705 /* libPods-FF_WXFriendsCircleTests.a */,
+				382CE5A441F7EA8AB8013D86 /* libPods-FF_WXFriendsCircleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041825E522ADE583005E8F04 /* FF_WXFriendsCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0418261222ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircle" */;
+			buildPhases = (
+				02515BD09555D523B36BA376 /* [CP] Check Pods Manifest.lock */,
+				041825E222ADE583005E8F04 /* Sources */,
+				041825E322ADE583005E8F04 /* Frameworks */,
+				041825E422ADE583005E8F04 /* Resources */,
+				2F680DD534CB55D252C10C81 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FF_WXFriendsCircle;
+			productName = FF_WXFriendsCircle;
+			productReference = 041825E622ADE583005E8F04 /* FF_WXFriendsCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041825FD22ADE584005E8F04 /* FF_WXFriendsCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0418261522ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircleTests" */;
+			buildPhases = (
+				683E8EDFE3AC8E138A0A39B8 /* [CP] Check Pods Manifest.lock */,
+				041825FA22ADE584005E8F04 /* Sources */,
+				041825FB22ADE584005E8F04 /* Frameworks */,
+				041825FC22ADE584005E8F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0418260022ADE584005E8F04 /* PBXTargetDependency */,
+			);
+			name = FF_WXFriendsCircleTests;
+			productName = FF_WXFriendsCircleTests;
+			productReference = 041825FE22ADE584005E8F04 /* FF_WXFriendsCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0418260822ADE584005E8F04 /* FF_WXFriendsCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0418261822ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircleUITests" */;
+			buildPhases = (
+				33E1331DE33678FC6817DE8D /* [CP] Check Pods Manifest.lock */,
+				0418260522ADE584005E8F04 /* Sources */,
+				0418260622ADE584005E8F04 /* Frameworks */,
+				0418260722ADE584005E8F04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0418260B22ADE584005E8F04 /* PBXTargetDependency */,
+			);
+			name = FF_WXFriendsCircleUITests;
+			productName = FF_WXFriendsCircleUITests;
+			productReference = 0418260922ADE584005E8F04 /* FF_WXFriendsCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041825DE22ADE583005E8F04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = healifeGroup;
+				TargetAttributes = {
+					041825E522ADE583005E8F04 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					041825FD22ADE584005E8F04 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 041825E522ADE583005E8F04;
+					};
+					0418260822ADE584005E8F04 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 041825E522ADE583005E8F04;
+					};
+				};
+			};
+			buildConfigurationList = 041825E122ADE583005E8F04 /* Build configuration list for PBXProject "FF_WXFriendsCircle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041825DD22ADE583005E8F04;
+			productRefGroup = 041825E722ADE583005E8F04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041825E522ADE583005E8F04 /* FF_WXFriendsCircle */,
+				041825FD22ADE584005E8F04 /* FF_WXFriendsCircleTests */,
+				0418260822ADE584005E8F04 /* FF_WXFriendsCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041825E422ADE583005E8F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041825F622ADE584005E8F04 /* LaunchScreen.storyboard in Resources */,
+				041825F322ADE584005E8F04 /* Assets.xcassets in Resources */,
+				041825F122ADE583005E8F04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041825FC22ADE584005E8F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0418260722ADE584005E8F04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02515BD09555D523B36BA376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_WXFriendsCircle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F680DD534CB55D252C10C81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FF_WXFriendsCircle/Pods-FF_WXFriendsCircle-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/YBImageBrowser/YBImageBrowser/YBImageBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YBImageBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FF_WXFriendsCircle/Pods-FF_WXFriendsCircle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33E1331DE33678FC6817DE8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_WXFriendsCircleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		683E8EDFE3AC8E138A0A39B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FF_WXFriendsCircleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041825E222ADE583005E8F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0418263422AE482E005E8F04 /* CommentsContainerView.m in Sources */,
+				0403D4DA22B340F20092BA25 /* WXPicsContainerView.m in Sources */,
+				0418262822ADF1F4005E8F04 /* FriendsCircleCell_01.m in Sources */,
+				0418263722AE5BAE005E8F04 /* FeedListViewController.m in Sources */,
+				0418262222ADE77E005E8F04 /* FriendsCircleViewController.m in Sources */,
+				041825EE22ADE583005E8F04 /* ViewController.m in Sources */,
+				0403D4CC22B335910092BA25 /* WXFriendsCirlceViewController.m in Sources */,
+				0403D4DD22B341020092BA25 /* WXCommentsContainerView.m in Sources */,
+				0403D4D222B336810092BA25 /* WXFriendsCircleModel.m in Sources */,
+				041825F922ADE584005E8F04 /* main.m in Sources */,
+				0418262B22AE105D005E8F04 /* NSArray+Sudoku.m in Sources */,
+				0418262522ADEA43005E8F04 /* FriendsCirlceModel.m in Sources */,
+				0403D4CF22B335ED0092BA25 /* WXFriendsCircleCell.m in Sources */,
+				0418263122AE46FB005E8F04 /* PicsContainerView.m in Sources */,
+				041825EB22ADE583005E8F04 /* AppDelegate.m in Sources */,
+				0418262E22AE3CDE005E8F04 /* FriendsCircleCell_02.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041825FA22ADE584005E8F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0418260522ADE584005E8F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0418260022ADE584005E8F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041825E522ADE583005E8F04 /* FF_WXFriendsCircle */;
+			targetProxy = 041825FF22ADE584005E8F04 /* PBXContainerItemProxy */;
+		};
+		0418260B22ADE584005E8F04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041825E522ADE583005E8F04 /* FF_WXFriendsCircle */;
+			targetProxy = 0418260A22ADE584005E8F04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		041825EF22ADE583005E8F04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041825F022ADE583005E8F04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041825F422ADE584005E8F04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041825F522ADE584005E8F04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0418261022ADE584005E8F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0418261122ADE584005E8F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0418261322ADE584005E8F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D54240B0F14A834693ECB85 /* Pods-FF_WXFriendsCircle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTRXQ7GTRW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FF_WXFriendsCircle/FF_FriendsCircle-PrefixHeader.pch";
+				INFOPLIST_FILE = FF_WXFriendsCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0418261422ADE584005E8F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B0C67EB6A3D5B9FFBA987F /* Pods-FF_WXFriendsCircle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTRXQ7GTRW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FF_WXFriendsCircle/FF_FriendsCircle-PrefixHeader.pch";
+				INFOPLIST_FILE = FF_WXFriendsCircle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0418261622ADE584005E8F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E363421B1D17228E5D1D914C /* Pods-FF_WXFriendsCircleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_WXFriendsCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_WXFriendsCircle.app/FF_WXFriendsCircle";
+			};
+			name = Debug;
+		};
+		0418261722ADE584005E8F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24B34CED2CD25FEF97E49C01 /* Pods-FF_WXFriendsCircleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_WXFriendsCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FF_WXFriendsCircle.app/FF_WXFriendsCircle";
+			};
+			name = Release;
+		};
+		0418261922ADE584005E8F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5727A41F08A9BA3582A71EC /* Pods-FF_WXFriendsCircleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_WXFriendsCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_WXFriendsCircle;
+			};
+			name = Debug;
+		};
+		0418261A22ADE584005E8F04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DABC4FFD367D1D958E303D6 /* Pods-FF_WXFriendsCircleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FF_WXFriendsCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "healifeGroup.FF-WXFriendsCircleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FF_WXFriendsCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041825E122ADE583005E8F04 /* Build configuration list for PBXProject "FF_WXFriendsCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418261022ADE584005E8F04 /* Debug */,
+				0418261122ADE584005E8F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0418261222ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418261322ADE584005E8F04 /* Debug */,
+				0418261422ADE584005E8F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0418261522ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418261622ADE584005E8F04 /* Debug */,
+				0418261722ADE584005E8F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0418261822ADE584005E8F04 /* Build configuration list for PBXNativeTarget "FF_WXFriendsCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0418261922ADE584005E8F04 /* Debug */,
+				0418261A22ADE584005E8F04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041825DE22ADE583005E8F04 /* Project object */;
+}
